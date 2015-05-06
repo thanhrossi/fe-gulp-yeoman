@@ -1,108 +1,109 @@
 @import "MyFontsWebfontsKit.css";
 @font-face {
-	font-family: 'Avenir';
-	src: url('../fonts/AvenirNextLTPro-Demi.eot');
-	src: url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'), url('../fonts/AvenirNextLTPro-Demi.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Demi.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'mc_sunshine';
-	src: url('../fonts/McCainSunshine-Regular.eot');
-	src: url('../fonts/McCainSunshine-Regular.woff') format('woff'), url('../fonts/McCainSunshine-Regular.ttf') format('truetype'), url('../fonts/McCainSunshine-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'univer';
-	src: url('../fonts/Univers.eot');
-	src: url('../fonts/Univers.woff') format('woff'), url('../fonts/Univers.ttf') format('truetype'), url('../fonts/Univers.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'univer_bold';
-	src: url('../fonts/Univers-Bold-webfont.eot');
-    src: url('../fonts/Univers-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Univers-Bold-webfont.woff2') format('woff2'),
-         url('../fonts/Univers-Bold-webfont.woff') format('woff'),
-         url('../fonts/Univers-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/Univers-Bold-webfont.svg#univer_bold') format('svg');
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirNextLTPro-Demi.eot');
+    src: url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'), url('../fonts/AvenirNextLTPro-Demi.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Demi.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-	font-family: 'univer_c_bold';
-	src: url('../fonts/Univers-CondensedBold.eot');
-	src: url('../fonts/Univers-CondensedBold.woff') format('woff'), url('../fonts/Univers-CondensedBold.ttf') format('truetype'), url('../fonts/Univers-CondensedBold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mc_sunshine';
+    src: url('../fonts/McCainSunshine-Regular.eot');
+    src: url('../fonts/McCainSunshine-Regular.woff') format('woff'), url('../fonts/McCainSunshine-Regular.ttf') format('truetype'), url('../fonts/McCainSunshine-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'univer';
+    src: url('../fonts/Univers.eot');
+    src: url('../fonts/Univers.woff') format('woff'), url('../fonts/Univers.ttf') format('truetype'), url('../fonts/Univers.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'univer_bold';
+    src: url('../fonts/Univers-Bold-webfont.eot');
+    src: url('../fonts/Univers-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Univers-Bold-webfont.woff2') format('woff2'), url('../fonts/Univers-Bold-webfont.woff') format('woff'), url('../fonts/Univers-Bold-webfont.ttf') format('truetype'), url('../fonts/Univers-Bold-webfont.svg#univer_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'univer_c_bold';
+    src: url('../fonts/Univers-CondensedBold.eot');
+    src: url('../fonts/Univers-CondensedBold.woff') format('woff'), url('../fonts/Univers-CondensedBold.ttf') format('truetype'), url('../fonts/Univers-CondensedBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'univer_light';
-    src: url('../fonts/Univers-Light.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Univers-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Univers-Light.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Univers-Light.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Univers-Light.svg') format('svg'); /* Legacy iOS */
+    src: url('../fonts/Univers-Light.eot');
+    /* IE9 Compat Modes */
+    
+    src: url('../fonts/Univers-Light.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    
+    url('../fonts/Univers-Light.woff') format('woff'),
+    /* Modern Browsers */
+    
+    url('../fonts/Univers-Light.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    
+    url('../fonts/Univers-Light.svg') format('svg');
+    /* Legacy iOS */
+    
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-	font-family: 'univer_c_light';
-	src: url('../fonts/Univers-CondensedLight-webfont.eot');
-    src: url('../fonts/Univers-CondensedLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Univers-CondensedLight-webfont.woff2') format('woff2'),
-         url('../fonts/Univers-CondensedLight-webfont.woff') format('woff'),
-         url('../fonts/Univers-CondensedLight-webfont.ttf') format('truetype'),
-         url('../fonts/Univers-CondensedLight-webfont.svg#univer_c_light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-	font-family: 'univer_oblique';
-	src: url('../fonts/Univers-Oblique-webfont.eot');
-    src: url('../fonts/Univers-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Univers-Oblique-webfont.woff2') format('woff2'),
-         url('../fonts/Univers-Oblique-webfont.woff') format('woff'),
-         url('../fonts/Univers-Oblique-webfont.ttf') format('truetype'),
-         url('../fonts/Univers-Oblique-webfont.svg#univer_oblique') format('svg');
+    font-family: 'univer_c_light';
+    src: url('../fonts/Univers-CondensedLight-webfont.eot');
+    src: url('../fonts/Univers-CondensedLight-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Univers-CondensedLight-webfont.woff2') format('woff2'), url('../fonts/Univers-CondensedLight-webfont.woff') format('woff'), url('../fonts/Univers-CondensedLight-webfont.ttf') format('truetype'), url('../fonts/Univers-CondensedLight-webfont.svg#univer_c_light') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'univer_lts_bold';
-	src: url('../fonts/UniversLTStd-Bold.eot');
-	src: url('../fonts/UniversLTStd-Bold.woff') format('woff'), url('../fonts/UniversLTStd-Bold.ttf') format('truetype'), url('../fonts/UniversLTStd-Bold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'univer_lts_bold_cn';
-	src: url('../fonts/UniversLTStd-BoldCn.eot');
-	src: url('../fonts/UniversLTStd-BoldCn.woff') format('woff'), url('../fonts/UniversLTStd-BoldCn.ttf') format('truetype'), url('../fonts/UniversLTStd-BoldCn.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'univer_lts_bold_cno';
-	src: url('../fonts/UniversLTStd-BoldCnObl.eot');
-	src: url('../fonts/UniversLTStd-BoldCnObl.woff') format('woff'), url('../fonts/UniversLTStd-BoldCnObl.ttf') format('truetype'), url('../fonts/UniversLTStd-BoldCnObl.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'univer_lts_cn';
-	src: url('../fonts/UniversLTStd-Cn.eot');
-	src: url('../fonts/UniversLTStd-Cn.woff') format('woff'), url('../fonts/UniversLTStd-Cn.ttf') format('truetype'), url('../fonts/UniversLTStd-Cn.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'univer_oblique';
+    src: url('../fonts/Univers-Oblique-webfont.eot');
+    src: url('../fonts/Univers-Oblique-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Univers-Oblique-webfont.woff2') format('woff2'), url('../fonts/Univers-Oblique-webfont.woff') format('woff'), url('../fonts/Univers-Oblique-webfont.ttf') format('truetype'), url('../fonts/Univers-Oblique-webfont.svg#univer_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'univer_lts_bold';
+    src: url('../fonts/UniversLTStd-Bold.eot');
+    src: url('../fonts/UniversLTStd-Bold.woff') format('woff'), url('../fonts/UniversLTStd-Bold.ttf') format('truetype'), url('../fonts/UniversLTStd-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'univer_lts_bold_cn';
+    src: url('../fonts/UniversLTStd-BoldCn.eot');
+    src: url('../fonts/UniversLTStd-BoldCn.woff') format('woff'), url('../fonts/UniversLTStd-BoldCn.ttf') format('truetype'), url('../fonts/UniversLTStd-BoldCn.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'univer_lts_bold_cno';
+    src: url('../fonts/UniversLTStd-BoldCnObl.eot');
+    src: url('../fonts/UniversLTStd-BoldCnObl.woff') format('woff'), url('../fonts/UniversLTStd-BoldCnObl.ttf') format('truetype'), url('../fonts/UniversLTStd-BoldCnObl.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'univer_lts_cn';
+    src: url('../fonts/UniversLTStd-Cn.eot');
+    src: url('../fonts/UniversLTStd-Cn.woff') format('woff'), url('../fonts/UniversLTStd-Cn.ttf') format('truetype'), url('../fonts/UniversLTStd-Cn.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
