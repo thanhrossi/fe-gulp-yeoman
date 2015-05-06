@@ -1,0 +1,27 @@
+// color
+$bg-black: #191311;
+$bg-black-light: #1a1a1a;
+$bg-blue: #073d49;
+$bg-blue-dark: #073d49;
+$bg-green: #07db9e;
+$black: #000;
+$grey: #ebebeb;
+$white: #fff;
+$yellow: #ffff00;
+
+// fontface
+$font-family-sans-serif:    Helvetica, Arial, sans-serif;
+$font-family-serif:         Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:     Monaco, Menlo, Consolas, "Courier New", monospace;
+$font-family-base:          $font-family-sans-serif;
+$font-size-base:            14px;
+$c_helvetica:           	'Conv_Helvetica', $font-family-serif;
+$helvetica_light:			'Helvetica-Light', $font-family-serif;
+$helvetica_bold:			'Helvetica-Bold', $font-family-serif;
+
+// Break point
+$phone: "only screen and (max-width : 767px)";
+$tablet: "only screen and (min-width: 768px) and (max-width : 1024px)";
+$both: "only screen and (max-width : 1024px)";
+$tablet-desktop: "only screen and (min-width: 768px)";
+$desktop: "only screen and (min-width : 1025px)";
