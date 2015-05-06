@@ -2,6 +2,9 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "_variables";
+@import "_fonts";
+
 // endbower
 
 .browserupgrade {
@@ -15,7 +18,7 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
